@@ -33,5 +33,10 @@ public class Oferta implements Serializable {
 	public void setFecaInicio(LocalDate fecaInicio) {
 		this.fecaInicio = fecaInicio;
 	}
+	@Override
+	public String toString() {
+		return "Oferta [codigoOferta=" + codigoOferta + ", referencia=" + referencia + ", fecaInicio=" + fecaInicio
+				+ "]";
+	}
 	
 }
